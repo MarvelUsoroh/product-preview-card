@@ -27,7 +27,7 @@ Users should be able to:
 ### Screenshot
 
 product-preview-screenshot.png
-
+product-preview-mobile-screenshot.png
 
 ### Links
 
