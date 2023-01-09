@@ -32,7 +32,7 @@ product-preview-screenshot.png
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://marvelusoroh.github.io/product-preview-card/]
 
 ## My process
 
@@ -45,6 +45,14 @@ product-preview-screenshot.png
 - Mobile-first workflow
 
 ### What I learned
+
+```html
+<img class="perfume" src="images/image-product-desktop.jpg"
+        srcset="images/image-product-desktop.jpg 600w 900h,
+        images/image-product-mobile.jpg 686w 480h"
+        sizes="(max-width: 500px) 686px, 600px" 
+        >
+```
 
 ```css
 .perfume {
